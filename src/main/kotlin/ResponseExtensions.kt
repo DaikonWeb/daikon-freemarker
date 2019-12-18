@@ -16,7 +16,7 @@ fun Response.html(name: String, model: HashMap<String, Any> = hashMapOf(), folde
     this.render(name, model, folder)
 }
 
-fun contentOf(name: String, model: HashMap<String, Any>, folder: String): String {
+private fun contentOf(name: String, model: HashMap<String, Any>, folder: String): String {
     val configuration = Configuration(DEFAULT_INCOMPATIBLE_IMPROVEMENTS)
     configuration.setDirectoryForTemplateLoading(File(folder))
 
