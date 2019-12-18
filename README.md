@@ -53,6 +53,13 @@ HttpServer()
     }
 ```
 
+Put your template file `hello_to.ftl` under `src/main/resources/templates`.
+
+Template `hello_to.ftl` content:
+```
+hello ${name}
+```
+ 
 ## Resources
 * Documentation: https://daikonweb.github.io
 * Examples: https://github.com/DaikonWeb/daikon-examples
