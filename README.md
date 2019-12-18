@@ -53,7 +53,7 @@ HttpServer()
     }
 ```
 
-Put your template file `hello_to.ftl` under `src/main/resources/templates`.
+Put your template file `hello_to.ftl` under the default directory `src/main/resources/templates`.
 
 Template `hello_to.ftl` content:
 ```
@@ -63,6 +63,7 @@ hello ${name}
 ## Resources
 * Documentation: https://daikonweb.github.io
 * Examples: https://github.com/DaikonWeb/daikon-examples
+* Freemarker project: https://freemarker.apache.org
 
 ## Authors
 
