@@ -1,16 +1,14 @@
 package daikon.freemarker
 
 import daikon.Response
-import daikon.freemarker.Template.contentOf
+import daikon.freemarker.Template.DEFAULT_TEMPLATE_FOLDER
 import org.eclipse.jetty.http.MimeTypes
 
-private const val DEFAULT_TEMPLATE_FOLDER = "/templates"
-
 fun Response.render(name: String, model: HashMap<String, Any> = hashMapOf(), folder: String = DEFAULT_TEMPLATE_FOLDER) {
-    this.write(contentOf(name, model, folder))
+    write(Template.render(name, model, folder))
 }
 
 fun Response.html(name: String, model: HashMap<String, Any> = hashMapOf(), folder: String = DEFAULT_TEMPLATE_FOLDER) {
-    this.type(MimeTypes.Type.TEXT_HTML_UTF_8.asString())
-    this.render(name, model, folder)
+    type(MimeTypes.Type.TEXT_HTML_UTF_8.asString())
+    render(name, model, folder)
 }
