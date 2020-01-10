@@ -1,5 +1,7 @@
-import Template.contentOf
+package daikon.freemarker
+
 import daikon.Response
+import daikon.freemarker.Template.contentOf
 import org.eclipse.jetty.http.MimeTypes
 
 private const val DEFAULT_TEMPLATE_FOLDER = "/templates"

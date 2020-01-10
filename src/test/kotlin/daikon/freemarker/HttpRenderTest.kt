@@ -1,12 +1,10 @@
 package daikon.freemarker
 
 import daikon.HttpServer
-import html
 import khttp.get
 import org.assertj.core.api.Assertions.assertThat
 import org.eclipse.jetty.http.MimeTypes.Type.TEXT_HTML_UTF_8
 import org.junit.jupiter.api.Test
-import render
 
 class HttpRenderTest {
 
