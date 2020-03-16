@@ -20,7 +20,7 @@ repositories {
 ```
 - Add the dependency
 ```
-implementation('com.github.DaikonWeb:daikon-freemarker:1.1.9')
+implementation('com.github.DaikonWeb:daikon-freemarker:')
 ```
 
 ### Maven
@@ -38,7 +38,7 @@ implementation('com.github.DaikonWeb:daikon-freemarker:1.1.9')
 <dependency>
     <groupId>com.github.DaikonWeb</groupId>
     <artifactId>daikon-freemarker</artifactId>
-    <version>1.1.9</version>
+    <version></version>
 </dependency>
 ```
 
