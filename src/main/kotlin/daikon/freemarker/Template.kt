@@ -1,6 +1,6 @@
 package daikon.freemarker
 
-import daikon.Response
+import daikon.core.Response
 import freemarker.template.Configuration
 import java.io.StringWriter
 

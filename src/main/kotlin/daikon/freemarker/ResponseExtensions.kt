@@ -1,6 +1,6 @@
 package daikon.freemarker
 
-import daikon.Response
+import daikon.core.Response
 import daikon.freemarker.Template.DEFAULT_TEMPLATE_FOLDER
 import org.eclipse.jetty.http.MimeTypes
 
